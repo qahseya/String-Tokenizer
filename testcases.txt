@@ -1,0 +1,37 @@
+This is a file containing all the test cases I used to thoroughly test my code, including edge cases.
+
+Edge Cases:
+1. 	Input: "" (this is an empty string) 
+	Output: nothing
+2. 	Input: "2049805980"
+	Output: nothing
+3. 	Input: "I might be too strung out on compliments/Overdosed on confidence/Started not to give a f and stopped fearing the consequence. Drinking every night because we drink to my accomplishments, Faded way too long I'm floating in and out of consciousness/and they saying I'm back/I'd agree with that/I just take my time with all this shizz I still believe in that/ I know I exaggerated things/now I got it like that/tuck my napkin in my shirt cuz I'm just mobbin like that" 
+	Output: "Started/n Overdosed/n I/n I/n I/n I/n I/n I/n I/n I/n I/n I/n Faded/n Drinking/n with/n with/n we/n way/n tuck/n too/n too/n to/n time/n this/n things/n they/n the/n that/n that/n that/n that/n take/n strung/n stopped/n still/n shizz/n shirt/n saying/n out/n out/n on/n on/n of/n now/n not/n night/n napkin/n my/n my/n my/n my/n mobbin/n might/n long/n like/n like/n know/n just/n just/n it/n in/n in/n in/n got/n give/n floating/n fearing/n f/n exaggerated/n every/n drink/n cuz/n consequence/n consciousness/n confidence/n compliments/n believe/n because/n be/n back/n and/n and/n and/n all/n agree/n accomplishments/n"
+
+Regular Test Cases:
+1. 	Input: "Here-We-Are"
+	Output: "We/n Here/n Are/n"
+
+2. 	Input: "here>we<are"
+	Output: "we/n here/n are/n"
+
+3. 	Input: "My name is Ayesha Qureshi"
+	Output: "Qureshi/n My/n Ayesha/n name/n is/n"
+
+4. 	Input: "Here--- I---- am....." 
+	Output: "I/n Here/n am/n"
+	
+5. 	Input: "All Because Cats Drink"
+	Output: "Drink/n Cats/n Because/n All/n" 
+
+6.	Input: "Pop POP pOp"
+	Output: "POP/n Pop/n p0p/n"
+
+7.	Input: "POP pOp pop"
+	Output: "POP/n pOp/n pop/n"
+
+8.	Input: "dog doggie"
+	Output: "doggie dog"
+
+	
+
